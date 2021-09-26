@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faGuitar } from '@fortawesome/free-solid-svg-icons'
+import { faGuitar } from '@fortawesome/free-solid-svg-icons'
 
 
 import "./SingerCount.css"
@@ -12,13 +12,13 @@ const SingerCount = (props) => {
     return (
         <div>
 
-            <div className="">
-                <div className="">
+            <div className="wrapper">
+                <div className="wrap">
                     <img src={img} alt="" />
                     <h3>Name: {name}</h3>
                     <h3>Age : {age}</h3>
                     <h3>Country:  {country}</h3>
-                    <h3>Sallary:  {salary}</h3>
+                    <h3>Sallary $:{salary}</h3>
                     <button onClick={() => props.salaryAdd(props.singer)} className='btn'>{singerFont}add salary</button>
                 </div>
 
