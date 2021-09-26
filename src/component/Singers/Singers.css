@@ -1,0 +1,38 @@
+.all-singer {
+    display: flex;
+    max-width: 100%;
+}
+
+.salary {
+    width: 200px;
+    /* margin-right: 200px; */
+    text-align: right;
+}
+
+.singer {
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    width: 800px;
+    /* margin: 0 auto; */
+    /* margin-left: 193px; */
+    box-shadow: -3px 1px 22px 8px rgba(0, 0, 0, 0.47);
+}
+
+.singer-one {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+}
+
+.singer-one img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 150px;
+    padding-top: 15px;
+}
+
+.singer-one h3 {
+    line-height: 10px;
+    margin-left: 8px;
+}
